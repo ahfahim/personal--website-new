@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500,600,700&display=swap');
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	word-spacing: 1px;
+	line-height: 22px;
+	color: #7070A8;
+}
+
+a {
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+}
+
+
+/* top-banner-start */
+
+.top-banner-right img {
+	width: 100%;
+}
+
+.top-banner-left {
+	padding: 10%;
+	padding-right: 5%;
+}
+
+.top-banner-left h4 {
+	font-size: 28px;
+}
+
+.top-banner-right img {
+	width: 100%;
+}
+
+.top-banner-left h2 {
+	font-size: 35px;
+	padding: 20px 5px;
+	color: #EC4C7A;
+	font-weight: 700;
+}
+
+.top-banner {
+	display: flex;
+	background: url('image/header-bg.png') no-repeat scroll left top;
+}
+
+a.hire-button {
+	padding: 7px 20px;
+	background-color: #FF2A7E;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 30px;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+
+a.hire-button:hover {
+	background-color: #FFC220;
+}
+
+
+/* biography-area-start */
+
+.biography-area {
+	display: flex;
+	background: url('image/biography-bg.png') no-repeat scroll center center;
+}
+
+.biography-left img {
+	width: 100%;
+	padding-left: 10%;
+}
+
+.biography-right {
+	padding: 10%;
+	padding-bottom: 20%;
+}
+
+.biography-right h2 {
+	font-size: 35px;
+	margin-bottom: 25px;
+	color: #000;
+}
+
+
+/* latest-work-area-start */
+
+.latest-work-area {
+	background: url('image/latest-work-bg.png') no-repeat scroll right;
+}
+
+.latest-work-area img {
+	width: 20%;
+	margin: 10px;
+	text-align: center;
+}
+
+section.latest-work-area {
+	text-align: center;
+	margin-top: 12%;
+}
+
+.latest-work-area h1 {
+	font-size: 35px;
+	margin: 50px 0 70px 0;
+}
+
+
+/* client-review-start */
+
+section.client-review h2 {
+	text-align: center;
+	font-size: 35px;
+	color: #000;
+	margin-bottom: 80px;
+}
+
+section.client-review {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+section.client-review p {
+	font-size: 12px;
+}
+
+p.client-reviews-ditales {
+	width: 30%;
+	margin: 0 auto;
+	color: #000;
+	font-size: 18px;
+	line-height: 26px;
+	padding: 25px 40px;
+}
+
+section.client-review h6 {
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+section.client-review {
+	background: url('image/footer-bg.png');
+	padding-top: 15%;
+}
+
+a.contact span {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+a.contact {
+	padding: 20px 100px 55px;
+	background-color: #FF4991;
+	color: #fff;
+	font-size: 25px;
+	transition: 0.3s;
+}
+
+a.contact:hover {
+	background-color: #FFC220;
+}
+
+
+/* footer-start */
+
+footer {
+	text-align: center;
+}

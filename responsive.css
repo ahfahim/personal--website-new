@@ -1,0 +1,125 @@
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+	.top-banner,
+	.biography-area {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.top-banner-left,
+	.biography-right {
+		padding: 20px;
+		text-align: center;
+	}
+	.top-banner-left p {
+		text-align: left;
+	}
+	.top-banner-left h4 {
+		font-size: 20px;
+	}
+	.top-banner-left h2 {
+		font-size: 30px;
+	}
+	.top-banner-left p {
+		font-size: 14px;
+	}
+	.top-banner-left,
+	.biography-right a {
+		font-size: 14px;
+		padding: 6px 15px;
+	}
+	.biography-right h2 {
+		font-size: 30px;
+	}
+	.biography-area {
+		flex-direction: column-reverse;
+	}
+	.biography-right p {
+		text-align: justify;
+	}
+	.latest-work-area h1 {
+		font-size: 30px;
+		margin: 40px;
+	}
+	.latest-work-area img {
+		width: 60%;
+		margin: 15px;
+	}
+	section.client-review h2 {
+		margin-bottom: 50px;
+		font-size: 30px;
+	}
+	section.client-review h6 {
+		font-size: 16px;
+	}
+	section.client-review p {
+		font-size: 14px;
+	}
+	p.client-reviews-ditales {
+		width: 80%;
+	}
+	a.contact {
+		padding: 20px 80px;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+	a.contact span {
+		font-size: 14px;
+	}
+	section.client-review {
+		padding-bottom: 10px;
+	}
+}
+
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+	.top-banner-left h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.latest-work-area h1 {
+		font-size: 30px;
+		margin: 40px;
+	}
+	.latest-work-area img {
+		width: 60%;
+		margin: 15px;
+	}
+	section.client-review h2 {
+		margin-bottom: 50px;
+		font-size: 30px;
+	}
+	section.client-review h6 {
+		font-size: 16px;
+	}
+	section.client-review p {
+		font-size: 14px;
+	}
+	p.client-reviews-ditales {
+		width: 80%;
+	}
+	a.contact {
+		padding: 20px 80px;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+	a.contact span {
+		font-size: 14px;
+	}
+	section.client-review {
+		padding-bottom: 10px;
+	}
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Huge */
+
+@media only screen and (min-width: 1280px) {}
