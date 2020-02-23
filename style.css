@@ -168,6 +168,45 @@ a.contact:hover {
 	background-color: #FFC220;
 }
 
+/* Expererience-area-start */
+
+.box{
+    width: 22%;
+    margin: 0 3%;
+    float: left;
+    border-left: 10px solid lightgreen;
+    padding: 2%;
+    box-shadow: 12px 2px 30px 4px #888856;
+    height: 310px;
+    border-radius: 5px;
+}
+
+.exp-left {
+    background-color: #fff;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image-source:linear-gradient(180deg, lightsalmon, purple);
+}
+
+.exp-right {
+    background-color: #fff;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image-source:linear-gradient(180deg, lightsalmon, blue)
+}
+
+h2.heading {
+    padding: 40px 10px;
+}
+
+section.cxperience {
+    padding-bottom: 110px!important;
+}
+
+.exp-right.box {
+    margin-bottom: 50px;
+}
+
 
 /* footer-start */
 
